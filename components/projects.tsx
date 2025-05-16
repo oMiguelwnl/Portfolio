@@ -5,7 +5,6 @@ import { useSectionInView } from "@/lib/hooks";
 import { ProjectCard } from "./projectCard";
 
 export default function Projects() {
-  // Threshold ajustado para tablets (0.3 = 30% visível)
   const { ref } = useSectionInView("Projetos", 0.3);
 
   return (
