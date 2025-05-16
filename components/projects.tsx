@@ -3,25 +3,16 @@
 import { projectsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { ProjectCard } from "./projectCard";
-import { useEffect, useState } from "react";
 
 export default function Projects() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const { ref } = useSectionInView("Projetos", isMobile ? 0.1 : 0.5);
+  // Threshold ajustado para tablets (0.3 = 30% visível)
+  const { ref } = useSectionInView("Projetos", 0.3);
 
   return (
     <section
       ref={ref}
       id="projects"
-      className="scroll-mt-28 mb-28 px-4 sm:px-16 min-h-[50vh]"
+      className="scroll-mt-28 mb-28 px-4 sm:px-16 min-h-[60vh]"
     >
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">
         Meus Projetos
