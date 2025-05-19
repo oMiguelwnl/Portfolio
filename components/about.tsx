@@ -21,23 +21,19 @@ export default function About() {
       </h2>
       <p className="mb-3">
         Iniciei minha jornada na programação em 2023 e, desde então, venho me
-        dedicando intensamente a evoluir na área. Atualmente, curso{" "}
-        <span className="font-medium">Ciência da Computação</span> na Estácio. O
-        que mais me motiva na programação é a{" "}
-        <span className="italic">resolução de problemas</span> — encontrar
-        soluções criativas para desafios técnicos é algo que realmente me
-        empolga. Minha stack principal inclui{" "}
-        <span className="font-medium">React, Next.js, Node.js e MongoDB</span>,
-        além de experiência com TypeScript. Estou sempre em busca de aprender
-        novas tecnologias e aprimorar minhas habilidades.
+        dedicando intensamente a evoluir na área. Atualmente, curso Ciência da
+        Computação na Estácio. O que mais me motiva na programação é a resolução
+        de problemas — encontrar soluções criativas para desafios técnicos é
+        algo que realmente me empolga. Minha stack principal inclui React,
+        Next.js, Node.js e MongoDB, além de experiência com TypeScript. Estou
+        sempre em busca de aprender novas tecnologias e aprimorar minhas
+        habilidades.
       </p>
 
       <p>
-        <span className="italic">Fora do universo da programação</span>, gosto
-        de assistir filmes, ler livros e explorar novos idiomas. Atualmente,
-        estou estudando <span className="font-medium">francês</span> e também me
-        dedicando a aprender a jogar <span className="font-medium">xadrez</span>
-        .
+        Fora do universo da programação, gosto de assistir filmes, ler livros e
+        explorar novos idiomas. Atualmente, estou estudando francês e Espanhol e
+        também me dedicando a aprender a jogar xadrez.
       </p>
     </motion.section>
   );
