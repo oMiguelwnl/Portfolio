@@ -164,6 +164,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Zod",
   "Tailwind",
   "Sass",
   "Prisma",
@@ -173,10 +174,18 @@ export const skillsData = [
   "PostgreSQL",
   "Framer Motion",
   "MaterialUI",
+  "NextAuth",
+  "Axios",
+  "React Query",
+  "React Hook Form",
+  "Yup",
+  "Formik",
+  "React Router",
   "Shadcn",
   "Redis",
   "Stripe",
   "Cloudinary",
   "Socket.io",
+
 ] as const;
 
