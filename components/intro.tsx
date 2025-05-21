@@ -105,7 +105,7 @@ export default function Intro() {
           transition={{ type: "tween", duration: 0.2 }}
         >
           <Image
-            src="https://res.cloudinary.com/dmyz111xa/image/upload/v1747404142/profile_d4b0wi.jpg"
+            src="profile.jpg"
             alt="Foto de perfil"
             fill
             className="object-cover rounded-full z-10 border-4 border-emerald-100 shadow-xl"
