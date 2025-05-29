@@ -27,7 +27,7 @@ export default function Intro() {
           transition={{ type: "tween", duration: 0.2 }}
         >
           <Image
-            src="/perfil.jpg"
+            src="/profile.jpg"
             alt="Foto de perfil"
             fill
             className="object-cover rounded-full z-10 border-4 border-emerald-100 shadow-xl"
